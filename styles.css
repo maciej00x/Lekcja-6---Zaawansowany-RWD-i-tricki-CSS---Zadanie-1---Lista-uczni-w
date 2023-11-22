@@ -4,20 +4,14 @@
 
 ul {
   list-style-type: none;
-  padding: 0;
 }
 
 li {
-  padding: 10px;
-  background-color: #cecece; /* Dla pozycji nieparzystych */
+  background-color: #cecece;
 }
 
 li:nth-child(even) {
-  background-color: #efe3e3; /* Dla pozycji parzystych */
-}
-
-span {
-  margin: 10px;
+  background-color: #efe3e3;
 }
 
 .checkbox {
