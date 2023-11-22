@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #cecece; /* Dla pozycji nieparzystych */
+}
+
+li:nth-child(even) {
+  background-color: #efe3e3; /* Dla pozycji parzystych */
+}
+
+span {
+  margin: 10px;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
