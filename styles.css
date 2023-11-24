@@ -1,9 +1,7 @@
-* {
-  box-sizing: border-box;
-}
-
-ul {
-  list-style-type: none;
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
 }
 
 li {
@@ -12,8 +10,4 @@ li {
 
 li:nth-child(even) {
   background-color: #efe3e3;
-}
-
-.checkbox {
-  margin-right: 5px;
 }
